@@ -7,7 +7,7 @@ HackMD JJ
 
 ## 導入方法
 - Chromeの設定から拡張機能を選択
-    [拡張機能](chrome://extensions/)
+    - `chrome://extensions/`
 - 左上の「パッケージ化されていない拡張機能を読み込む」をクリック
 - ローカルのリポジトリを指定
 
