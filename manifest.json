@@ -1,0 +1,12 @@
+{
+    "name": "HackMD JJ",
+    "version": "1.0",
+    "description": "Change the look of HackMD",
+    "content_scripts": [
+        {
+            "matches": ["https://hackmd.io/*"],
+            "css": ["css/style.css"]
+        }
+    ],
+    "manifest_version": 2
+}

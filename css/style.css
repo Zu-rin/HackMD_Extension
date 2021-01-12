@@ -1,0 +1,19 @@
+span[class="hidden-xs"] {
+    color: blue;
+    font-size: 1em;
+    font-family: Comic Sans MS;
+}
+.navbar-header a .hidden-xs:hover {
+    color: transparent;
+    width: 0;
+    position: relative;
+}
+.navbar-header a .hidden-xs:hover:before {
+    content: "Team JJ";
+    color: blue;
+    font-size: 1em;
+    font-family: impact;
+    position: absolute;
+    left: 20%;
+    transition: all 0.3s;
+}
