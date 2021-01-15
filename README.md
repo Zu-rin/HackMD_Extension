@@ -1,4 +1,4 @@
-HackMD JJ
+HackJJ
 ===
 
 ## 概要
