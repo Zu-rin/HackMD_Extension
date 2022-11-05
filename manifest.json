@@ -1,12 +1,13 @@
 {
     "name": "HackJJ",
-    "version": "1.0",
+    "version": "0.2",
     "description": "Change the look of HackMD",
     "content_scripts": [
         {
             "matches": ["https://hackmd.io/*"],
-            "css": ["css/style.css"]
+            "css": ["css/style.css"],
+            "js": ["js/create_copy_btn.js"]
         }
     ],
-    "manifest_version": 2
+    "manifest_version": 3
 }
